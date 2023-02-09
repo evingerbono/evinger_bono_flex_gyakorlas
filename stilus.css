@@ -5,6 +5,15 @@
 main,header,nav,article,footer{
     border: 1px solid gray;
 }
+nav{
+    background-color: #9c9c9c;
+    display: flex;
+    flex-direction: row;
+}
+nav ul li a{
+    text-decoration: none;
+    color: red;
+}
 section{
     display: flex;
     flex-flow: row wrap;
